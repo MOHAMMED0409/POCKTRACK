@@ -1,0 +1,6 @@
+services:
+  frontend:
+    container_name: frontend
+    image: ghcr.io/mohammed0409/pocktrack:3.0
+    ports:
+      - 5000:5000
